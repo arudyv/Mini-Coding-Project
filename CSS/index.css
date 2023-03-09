@@ -66,6 +66,28 @@ html{
     .logo {
         margin-bottom: 14px;
     }
+
+    .about-contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about {
+        flex-direction: row;
+    }
+
+    .about-img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .package-information-up {
+        flex-direction: column;
+    }
+
+    .package-information-down {
+        flex-direction: column;
+    }
 }
 
 header{
@@ -101,9 +123,10 @@ header{
 }
 
 .menu-home {
-    border: solid 1px black;
+    border: solid 1px rgb(83 14 115);
     border-radius: 4px 0px 0px 4px;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: #a88ad1;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -112,8 +135,9 @@ header{
 }
 
 .menu-package{
-    border: solid 1px black;
-    color: black;
+    border: solid 1px rgb(83 14 115);
+    color: rgb(255, 255, 255);
+    background-color: #a88ad1;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -122,9 +146,10 @@ header{
 }
 
 .menu-call {
-    border: solid 1px black;
+    border: solid 1px rgb(83 14 115);
     border-radius: 0px 4px 4px 0px;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: #a88ad1;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -237,8 +262,8 @@ header{
 }
 
 .number{
-    background-color: rgba(123,87,106,0.23);
-    color: #000000;
+    background-color: rgb(100, 25, 135);
+    color: #ffffff;
     height: 50px;
     width: 60px;
     display: flex;
@@ -257,17 +282,18 @@ header{
     width: 60%;
     gap: 40px;
     padding: 40px;
-    background-color: rgba(123,87,106,0.23);
+    background-color: rgb(83 14 115);
 }
 
 .card-title > h4 {
     font-size: 20px;
     font-weight: 600;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
 .card-title > p {
-    color: #767676a1;
+    color: #ffffff;
     font-size: 14px;
     margin-bottom: 10%;
     line-height: 1.3;
@@ -277,6 +303,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: #ffffff;
 }
 
 .input {
@@ -303,9 +330,9 @@ form {
 }
 
 .form-submit {
-    background-color: #29323d;
+    background-color: #a88ad1;
     color: white;
-    border: solid 1px gray;
+    border: solid 1px rgb(83 14 115);
     border-radius: 5px;
     height: 50px;
     font-size: 14px;
@@ -316,11 +343,11 @@ form {
 
 .our-package {
     display: flex;
-    gap: 40px;
     justify-content: center;
     flex-direction: column;
     margin-left: 6%;
     margin-right: 6%;
+    margin-top: 50px;
 }
 
 .package-title {
@@ -328,20 +355,21 @@ form {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: rgba(123,87,106,0.23); 
+    background-color: rgb(100, 25, 135); 
 }
 
 .package-title > h1 {
     font-size: 40px;
     font-weight: 700;
     padding: 50px;
+    color: #ffffff;
 }
 
 .package-information-up {    
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    gap: 6%;
+    gap: 15px;
 }   
 
 .border-2 {
@@ -354,16 +382,15 @@ form {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    gap: 6%;
+    gap: 15px;
 }
 
 .icon {    
     display: flex;
-    flex-direction: column;
-    background-color: rgba(123,87,106,0.23);
-    color: #787878;
+    background-color: rgb(100, 25, 135);
+    color: #ffffff;
     height: 30px;
-    width: 240px;
+    width: 15%;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -392,20 +419,22 @@ form {
     align-items: center;
     padding: 50px;
     row-gap: 10px;
+    background-color: rgb(83 14 115);
 }
 
 .closing-title > h1 {
     font-size: 30px;
     font-weight: 700;
+    color: white;
 }
 
 .closing-title > h6 {
     margin-top: 30px;
-    color: #818181;
+    color: #d8d8d8;
 }
 
 .action {
-    background-color: #29323d;
+    background-color: #a88ad1;
     color: white;
     border-radius: 5px;
     width: 230px;
