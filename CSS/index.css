@@ -319,6 +319,8 @@ form {
     gap: 40px;
     justify-content: center;
     flex-direction: column;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 .package-title {
@@ -368,7 +370,7 @@ form {
     font-size: 20px;
 }
 
-.place > h3 {
+.place-complete > h3 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
